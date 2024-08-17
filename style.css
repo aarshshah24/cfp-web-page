@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    font-family: 'TeXGyreAdventor', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FB3330;
+}
+
+.nav-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.nav-panel {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.nav-panel a {
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    color: #FE8719;    ;
+}
+
+.tag-line {
+    background-image: url('assets/background.png');
+    background-size: cover;
+    height: 38rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tag-1 {
+    color: white;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.tag-1 h1 {
+    font-weight: bold;
+}
+
+.tag-1 p {
+    padding-top: 0.5rem;
+}
+
+.p1 {
+    padding-left: 12rem;
+}
+
+
+.tag-2 img {
+    height: 400px;
+    width: 400px;
+}
+
+
+/* .tag-2 p {
+    color: #04245B;
+    font-size: 5rem;
+}
+
+.tag-2 .p21 {
+    color: #04245B;
+    font-size: 6.4rem;
+} */
+
+.films {
+    background-color: black;
+    height: 20rem;
+}
+
+.films h1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 7.3rem;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.titles span {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.titles span:hover {
+    color: #FE8719;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titles a {
+    text-decoration: none;
+}
+
+
+/* 
+.title1 {
+    background-image: url('assets/title1.png');
+    background-size: cover;
+} */
+
+.OurTeam {
+    background-color: #F76937;
+    height: 62rem;
+}
+
+.OurTeam h1 {
+    padding-top: 3rem;
+    padding-left: 7.3rem;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.panel {
+    margin-top: 3%;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.team .team-member {
+    border-radius: 100px;
+    background-color: #FA9D6F;
+    margin: 5px;
+    /* margin-bottom: 50px; */
+    width: 350px;
+    padding: 20px;
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.team .team-member h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.team .team-member p.role {
+    color: #4E564E;
+    font-size: 1rem;
+}
+
+.team .team-member p.info {
+    color: black;
+    font-size: 1rem;
+}
+
+.associate {
+    height: 20rem;
+    background-color: black;
+}
+
+.associate h1 {
+    padding-top: 3rem;
+    padding-left: 34.5rem;
+    /* padding-bottom: 1rem; */
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.asso {
+    padding-left: 40rem;
+    padding-top: -15rem;
+}
+
+.ass-img {
+    background-image: url('assets/logo2.png');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+} 
+
+
+.contact {
+    background-color: #FE8719;
+    height: 20rem;
+}
+
+.contact h1 {
+    padding-top: 3rem;
+    padding-left: 7.3rem;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+
+.cpanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cpanel a {
+    text-decoration: none;
+    color: black;
+}
+
+.cpanel a:hover {
+    color: #FF0000;
+}
+
+.social-media i {
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
